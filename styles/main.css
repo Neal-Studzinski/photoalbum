@@ -1,4 +1,128 @@
-body {
-  background-color: red;
+header {
+  box-sizing: border-box;
+  background: red;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
 
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Georgia;
+  font-size: 2.5rem;
+  padding-top: 30px; }
+
+h2 {
+    padding-left: 3rem;
+    font-family: Georgia;
+    font-size: 1rem;
+    color: blue;
+    text-align: left;
+}
+
+h4 {
+  display: inline-block;
+  margin: 1rem 0 2rem -19rem;
+  color: black;
+  font-family: Georgia;
+  font-size: 3rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  z-index: -1; /* vertical stacking order of elements that overlap */
+}
+
+.albums-page {
+  display: none;
+}
+
+.album-list {
+  list-style: none;
+  margin: 0;
+  padding: .1rem 0 1rem 1.4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.photo-container {
+  background: red;
+  margin-top: 1rem;
+}
+
+.album-img {
+  width: 90%;
+  margin-top: .5rem;
+}
+
+#album1 {}
+#album2 {}
+#album3 {}
+#album4 {}
+#album5 {}
+#album6 {}
+
+.photos-page {}
+
+.sidebar {
+  width: 20%;
+  length: 100%;
+  position: fixed;
+  left: 0;
+}
+
+.sidebar-list {
+
+}
+
+.photos-container {}
+
+.album-container {}
+
+.album-container album1 {}
+.album-container album2 {}
+.album-container album3 {}
+.album-container album4 {}
+.album-container album5 {}
+.album-container album6 {}
+
+.fa-picture-o {
+ margin-right: 3rem;
+ color: red;
+ margin-top: .5rem;
+}
+
+.pic-page {
+  display: none;
+  bottom: 0;
+}
+
+.large-container {
+  text-align: center;
+}
+
+.backBtn {
+  background: ;
+  background-size: contain;
+  color: green;
+  width: 20%;
+  margin: 2rem 1rem 0 3rem;
+  float: left;
+  padding: .5rem;
+  border: solid .09rem grey;
+  border-radius: 5rem;
+}
+
+.large-img {
+  margin: 0 0 3rem 0;
+}
+
+.fa-chevron-left {
+  margin-right: 1rem;
+  color: blue;
 }
