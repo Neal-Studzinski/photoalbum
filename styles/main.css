@@ -50,8 +50,9 @@ footer {
   margin-bottom: 1rem;
 }
 
-.photo-container {
-  background: red;
+.photo-container img{
+  height: 250px;
+  width: 250px;
   margin-top: 1rem;
 }
 
@@ -91,12 +92,6 @@ footer {
 .album-container album5 {}
 .album-container album6 {}
 
-.fa-picture-o {
- margin-right: 3rem;
- color: red;
- margin-top: .5rem;
-}
-
 .pic-page {
   display: none;
   bottom: 0;
@@ -116,6 +111,12 @@ footer {
   padding: .5rem;
   border: solid .09rem grey;
   border-radius: 5rem;
+}
+
+.fa-picture-o {
+ margin-right: 3rem;
+ color: red;
+ margin-top: .5rem;
 }
 
 .large-img {
