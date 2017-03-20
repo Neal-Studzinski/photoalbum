@@ -14,11 +14,11 @@ h1 {
   padding-top: 30px; }
 
 h2 {
-    padding-left: 3rem;
-    font-family: Georgia;
-    font-size: 1rem;
-    color: blue;
-    text-align: left;
+  padding-left: 3rem;
+  font-family: Georgia;
+  font-size: 1rem;
+  color: blue;
+  text-align: center;
 }
 
 h4 {
@@ -27,6 +27,15 @@ h4 {
   color: black;
   font-family: Georgia;
   font-size: 3rem;
+}
+
+li {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+a {
+  display: block;
 }
 
 footer {
@@ -39,11 +48,12 @@ footer {
 }
 
 .albums-page {
-  display: none;
+  display:block;
 }
 
 .album-list {
   list-style: none;
+  display: inline-block;
   margin: 0;
   padding: .1rem 0 1rem 1.4rem;
   text-align: center;
@@ -52,7 +62,7 @@ footer {
 
 .photo-container img{
   height: 250px;
-  width: 250px;
+  width: 300px;
   margin-top: 1rem;
 }
 
@@ -68,7 +78,9 @@ footer {
 #album5 {}
 #album6 {}
 
-.photos-page {}
+.photos-page {
+  display: none;
+}
 
 .sidebar {
   width: 20%;
@@ -83,18 +95,33 @@ footer {
 
 .photos-container {}
 
-.album-container {}
+.album-container {
+  display:block;
+}
 
-.album-container album1 {}
-.album-container album2 {}
-.album-container album3 {}
-.album-container album4 {}
-.album-container album5 {}
-.album-container album6 {}
+.album-container album1 {
+  display: none;
+}
+.album-container album2 {
+  display: none;
+}
+.album-container album3 {
+  display: none;
+}
+.album-container album4 {
+  display: none;
+}
+.album-container album5 {
+  display: none;
+}
+.album-container album6 {
+  display: none;
+}
 
 .pic-page {
   display: none;
   bottom: 0;
+
 }
 
 .large-container {
