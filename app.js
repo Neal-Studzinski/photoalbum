@@ -8,6 +8,8 @@ var $pageThree = $('.pic-page'); //Individual picture page
 var $backBtn = $('.backBtn'); // Button to go backBtn
 
 
+
+// Started going through jquery on codeacademy
 $(document).ready(function() {
     $('pagetwo').click(function() {
         $('albums').removeClass('');
