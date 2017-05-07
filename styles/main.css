@@ -1,151 +1,153 @@
-header {
-  box-sizing: border-box;
-  background: red;
-  width: 100%;
-  text-align: center;
-  padding: 2rem;
+body {
+  font-family: 'Georgia', sans-serif;
 }
 
-h1 {
-  text-align: center;
-  color: black;
-  font-family: Georgia;
-  font-size: 2.5rem;
-  padding-top: 30px; }
-
-h2 {
-  padding-left: 3rem;
-  font-family: Georgia;
-  font-size: 1rem;
-  color: blue;
-  text-align: center;
-}
-
-h4 {
-  display: inline-block;
-  margin: 1rem 0 2rem -19rem;
-  color: black;
-  font-family: Georgia;
-  font-size: 3rem;
-}
-
-li {
-  margin: 0 auto;
-  display: inline-block;
-}
-
-a {
+.selected {
   display: block;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: red;
-  width: 100%;
+.album-view {
+  display: block;
+}
+
+.album-view h2 {
   text-align: center;
-  z-index: -1; /* vertical stacking order of elements that overlap */
-}
-
-.albums-page {
-  display:block;
-}
-
-.album-list {
-  list-style: none;
-  display: inline-block;
-  margin: 0;
-  padding: .1rem 0 1rem 1.4rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.photo-container img{
-  height: 250px;
-  width: 300px;
-  margin-top: 1rem;
-}
-
-.album-img {
-  width: 90%;
-  margin-top: .5rem;
-}
-
-#album1 {}
-#album2 {}
-#album3 {}
-#album4 {}
-#album5 {}
-#album6 {}
-
-.photos-page {
-  display: none;
-}
-
-.sidebar {
-  width: 20%;
-  length: 100%;
-  position: fixed;
-  left: 0;
-}
-
-.sidebar-list {
-
-}
-
-.photos-container {}
-
-.album-container {
-  display:block;
-}
-
-.album-container album1 {
-  display: none;
-}
-.album-container album2 {
-  display: none;
-}
-.album-container album3 {
-  display: none;
-}
-.album-container album4 {
-  display: none;
-}
-.album-container album5 {
-  display: none;
-}
-.album-container album6 {
-  display: none;
-}
-
-.pic-page {
-  display: none;
-  bottom: 0;
-
-}
-
-.large-container {
-  text-align: center;
-}
-
-.backBtn {
-  background: ;
-  background-size: contain;
-  color: green;
-  width: 20%;
-  margin: 2rem 1rem 0 3rem;
-  float: left;
-  padding: .5rem;
-  border: solid .09rem grey;
-  border-radius: 5rem;
-}
-
-
-.large-img {
-  margin: 0 0 3rem 0;
-}
-
-.fa-chevron-left {
-  margin-right: 1rem;
+  margin: 0 auto;
+  line-height: 8rem;
+  font-size: 2rem;
+  background: darkgrey;
+  border: 2px solid black;
+  display: block;
   color: blue;
+}
+
+.album-nav {
+  background-color: white;
+  width: 180px;
+  float: left;
+}
+
+.selected {
+  padding: 2rem 0;
+  color: black;
+}
+
+.album-nav ul {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.album-nav li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  background-color: darkgrey;
+  border: 2px solid black;
+  margin: 1rem auto;
+  display: block;
+  text-align: center;
+}
+
+.album-nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+.album-contents {
+}
+
+.album-contents ul {
+  margin: 0;
+}
+
+.album-contents li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 1vw;
+  margin: 2vw;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+}
+
+.album-contents a {
+  text-decoration: none;
+
+  color: blue;
+}
+
+.album-contents img {
+  margin: 1vw;
+  max-width: 12rem;
+  vertical-align: top;
+}
+
+.home-view h1{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 8rem;
+  background-color: darkgrey;
+  font-size: 2rem;
+  color: blue;
+  border: 2px solid black;
+}
+
+.home-view ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+
+}
+
+.home-view li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 3vw;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  margin: 1vw;
+  vertical-align: center;
+}
+
+img {
+  width: 24vw;
+  height: 18vw;
+  display: block;
+  padding: 1vw 0;
+}
+
+.home-view a {
+  text-decoration: none;
+  color: blue;
+}
+.photo-view {
+  display: block;
+}
+
+.photo-view h2{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 8rem;
+  font-size: 2rem;
+  color: blue;
+}
+
+.photo-view a{
+  background-color: blue;
+  color: black;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.photo-view img {
+  width: 600px;
+  height: 450px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0;
+  border: 1px solid white;
 }
